@@ -23,4 +23,5 @@ jobs:
 workflows:
   say-hello-workflow:
     jobs:
-      - say-hello
+      - cd .circleci
+        nano config.yml
